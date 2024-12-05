@@ -1,6 +1,3 @@
-DELETE FROM users;
-
-
 -- Sample data for the products table
 INSERT INTO products (name, category, quantity, price) VALUES 
 ('Widget', 'Tools', 50, 19.99),
