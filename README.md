@@ -44,6 +44,6 @@ Le Système de Gestion d'Inventaire est une application distribuée basée sur J
   - Rechercher par nom ou catégorie.
 - Journaux : Toutes les opérations sont enregistrées dans `inventory_operations.log`.
 
-## Auteur
+## Auteurs
 - **NACIRI Issam**
 - **EL KHANCHOUFI Youssef**
