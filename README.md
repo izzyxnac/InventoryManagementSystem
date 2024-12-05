@@ -46,3 +46,4 @@ Le Système de Gestion d'Inventaire est une application distribuée basée sur J
 
 ## Auteur
 - **NACIRI Issam**
+- **EL KHANCHOUFI Youssef**
