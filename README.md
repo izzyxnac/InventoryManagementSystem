@@ -26,7 +26,7 @@ Le Système de Gestion d'Inventaire est une application distribuée basée sur J
    - Exécutez `schema.sql` pour créer les tables.
    - Exécutez `data.sql` pour insérer les données initiales.
 
-2. Configurez le fichier `InventoryServiceImpl.java` :
+2. Configurez le fichier `ProductDAO.java` :
    ```java
    private final String jdbcURL = "jdbc:mysql://localhost:3306/inventory";
    private final String jdbcUsername = "root";  // Remplacez par votre utilisateur
