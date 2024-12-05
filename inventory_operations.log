@@ -1,0 +1,46 @@
+Dec 04, 2024 3:13:05 PM com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: package
+Dec 04, 2024 3:13:06 PM com.inventory.server.InventoryServiceImpl authenticate
+SEVERE: Authentication failed for user: package due to SQL error: Access denied for user 'root'@'localhost' (using password: NO)
+Dec 04, 2024 3:13:42 PM com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: employee
+Dec 04, 2024 3:13:43 PM com.inventory.server.InventoryServiceImpl authenticate
+SEVERE: Authentication failed for user: employee due to SQL error: Access denied for user 'root'@'localhost' (using password: NO)
+Dec 04, 2024 3:15:06 PM com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: java.rmi.ServerException:
+Dec 04, 2024 3:15:07 PM com.inventory.server.InventoryServiceImpl authenticate
+WARNING: Authentication failed: user java.rmi.ServerException: not found.
+Dec 04, 2024 3:15:26 PM com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: employee
+Dec 04, 2024 3:15:26 PM com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication successful for user: employee
+Dec 04, 2024 3:15:45 PM com.inventory.server.InventoryServiceImpl getAllProducts
+INFO: Retrieved all products. Count: 3
+Dec 05, 2024 9:43:14 AM server.com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: employee
+Dec 05, 2024 9:43:15 AM server.com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication successful for user: employee
+Dec 05, 2024 9:45:28 AM server.com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication attempt for user: employee
+Dec 05, 2024 9:45:29 AM server.com.inventory.server.InventoryServiceImpl authenticate
+INFO: Authentication successful for user: employee
+Dec 05, 2024 9:45:42 AM server.com.inventory.server.InventoryServiceImpl getAllProducts
+INFO: Retrieved all products. Count: 3
+Dec 05, 2024 9:46:18 AM server.com.inventory.server.InventoryServiceImpl addProduct
+INFO: Added product: Product{id=0, name='laptop', category='informatique', quantity=10, price=5000.0}
+Dec 05, 2024 9:46:34 AM server.com.inventory.server.InventoryServiceImpl getAllProducts
+INFO: Retrieved all products. Count: 4
+Dec 05, 2024 9:47:14 AM server.com.inventory.server.InventoryServiceImpl updateProduct
+INFO: Updated product: Product{id=9, name='laptop', category='Electronics', quantity=20, price=4000.0}
+Dec 05, 2024 9:47:17 AM server.com.inventory.server.InventoryServiceImpl getAllProducts
+INFO: Retrieved all products. Count: 4
+Dec 05, 2024 9:47:31 AM server.com.inventory.server.InventoryServiceImpl deleteProduct
+INFO: Deleted product with ID: 9
+Dec 05, 2024 9:47:37 AM server.com.inventory.server.InventoryServiceImpl getAllProducts
+INFO: Retrieved all products. Count: 3
+Dec 05, 2024 9:47:48 AM server.com.inventory.server.InventoryServiceImpl findProducts
+INFO: Search for keyword 'Gadget' returned 1 results.
+Dec 05, 2024 9:48:01 AM server.com.inventory.server.InventoryServiceImpl findProducts
+INFO: Search for keyword 'Hardware' returned 1 results.
+Dec 05, 2024 9:48:17 AM server.com.inventory.server.InventoryServiceImpl findProducts
+INFO: Search for keyword '50' returned 0 results.
