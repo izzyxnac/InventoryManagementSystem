@@ -167,6 +167,3 @@ client.com.inventory.client.InventoryClient
 
 ---
 
-## **License**
-
-This project is distributed under the [MIT License](https://opensource.org/licenses/MIT).
