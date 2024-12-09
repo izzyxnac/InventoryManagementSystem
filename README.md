@@ -139,7 +139,7 @@ private final String jdbcPassword = "";      // Replace with your password /Remp
 • Compile and run the `InventoryServer` class / Compilez et exécutez la classe `InventoryServer`:
 
 ```bash
-java server.com.inventory.server.InventoryServer
+server.com.inventory.server.InventoryServer
 ```
 
 ### **Client-Side / Côté Client**
@@ -148,14 +148,14 @@ java server.com.inventory.server.InventoryServer
 • Run the `InventoryGUI` class / Exécutez la classe `InventoryGUI`:
 
 ```bash
-java client.com.inventory.client.InventoryGUI
+client.com.inventory.client.InventoryGUI
 ```
 
 **Option 2: Console-Based Interface / Interface Basée sur la Console**  
 • Run the `InventoryClient` class / Exécutez la classe `InventoryClient`:
 
 ```bash
-java client.com.inventory.client.InventoryClient
+client.com.inventory.client.InventoryClient
 ```
 
 ---
