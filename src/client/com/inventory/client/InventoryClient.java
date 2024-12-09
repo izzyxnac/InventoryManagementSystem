@@ -30,12 +30,12 @@ public class InventoryClient {
             // Display menu
             while (true) {
                 System.out.println("\nChoose an option:");
-                System.out.println("1. Add Product");
-                System.out.println("2. Update Product");
-                System.out.println("3. Delete Product");
-                System.out.println("4. View All Products");
-                System.out.println("5. Search Products");
-                System.out.println("6. Exit");
+                System.out.println("1 : Add Product");
+                System.out.println("2 : Update Product");
+                System.out.println("3 : Delete Product");
+                System.out.println("4 : View All Products");
+                System.out.println("5 : Search Products");
+                System.out.println("6 : Exit");
                 int choice = scanner.nextInt();
 
                 switch (choice) {

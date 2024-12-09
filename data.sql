@@ -4,7 +4,7 @@ INSERT INTO products (name, category, quantity, price) VALUES
 ('Gadget', 'Electronics', 30, 99.99),
 ('Bolt', 'Hardware', 100, 0.10);
 
--- Sample data for the users table (optional)
+-- Sample data for the users table 
 INSERT INTO users (username, password_hash) VALUES 
 ('admin', 'password'), -- password: password
 ('employee', '123456'); -- password: 123456

@@ -8,8 +8,8 @@ import java.util.List;
 
 public class ProductDAO {
     private final String jdbcURL = "jdbc:mysql://localhost:3306/inventory";
-    private final String jdbcUsername = "root";  // Replace with your DB username
-    private final String jdbcPassword = "123456";      // Replace with your DB password
+    private final String jdbcUsername = "root";  
+    private final String jdbcPassword = "123456";      
 
     // Database Connection
     public Connection getConnection() throws SQLException {
