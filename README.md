@@ -4,7 +4,8 @@
 
 ## **Description**
 
-## **English**  
+## **English**
+
 The **Inventory Management System** is a distributed application designed to manage product inventory using **Java RMI** for client-server communication. The system supports both **graphical (GUI)** and **console-based interfaces**, allowing users to:  
 • Log in securely with authentication.  
 • Perform CRUD (Create, Read, Update, Delete) operations on products.  
@@ -12,7 +13,8 @@ The **Inventory Management System** is a distributed application designed to man
 • Log out of the system.  
 • Log all operations for traceability.
 
-## **Français**  
+## **Français**
+
 Le **Système de Gestion d'Inventaire** est une application distribuée conçue pour gérer l'inventaire des produits à l'aide de **Java RMI** pour la communication client-serveur. Le système prend en charge les interfaces **graphiques (GUI)** et **basées sur la console**, permettant aux utilisateurs de :  
 • Se connecter en toute sécurité avec une authentification.  
 • Effectuer des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) sur les produits.  
@@ -163,7 +165,13 @@ client.com.inventory.client.InventoryClient
 ## **Author / Auteur**
 
 - **NACIRI Issam**
-- **EL KHANCHOUFI Youssef**
 
 ---
 
+---
+
+## **Supervised by / Encadré par**
+
+- **Mr OUANAN Mohammed**
+
+---
